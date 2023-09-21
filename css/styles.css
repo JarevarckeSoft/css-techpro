@@ -164,6 +164,12 @@ img {
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
+@media (min-width: 1600px) {
+    .sobre-tech {
+        background-position: right;
+        background-size: 100%, 210rem;
+    }
+}
 .notavif.notwebp .sobre-tech {
     background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
 }
@@ -182,11 +188,6 @@ img {
     }
     .avif .sobre-tech {
         background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.avif);
-    }
-}
-@media (min-width: 1600px) {
-    .sobre-tech {
-        background-size: 100%, 210rem;
     }
 }
 .sobre-tech-grid {
@@ -218,6 +219,7 @@ img {
 }
 .texto-sobre-tech h2 {
     font-size: 2.5rem;
+    margin: 0;
 }
 @media (min-width: 320px) {
     .texto-sobre-tech h2 {
@@ -236,7 +238,7 @@ img {
 }
 .texto-sobre-tech p {
     font-size: 1.7rem;
-    line-height: 1.8;
+    line-height: 1.4;
 }
 @media (min-width: 320px) {
     .texto-sobre-tech p {
@@ -246,6 +248,7 @@ img {
 @media (min-width: 375px) {
     .texto-sobre-tech p {
         line-height: 2;
+        line-height: 1.8;
     }
 }
 
