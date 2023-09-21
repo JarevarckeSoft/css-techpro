@@ -160,7 +160,7 @@ img {
 
 /** Section Sobre-Tech **/
 .sobre-tech {
-    background-position: right;
+    background-position: top right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
