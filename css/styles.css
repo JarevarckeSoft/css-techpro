@@ -448,7 +448,7 @@ img {
 }
 @media (min-width: 712px) {
     .newsletter {
-        background-size: 100%, 80rem;
+        background-size: 100%, 90rem;
     }
 }
 @media (min-width: 768px) {
