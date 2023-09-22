@@ -448,7 +448,7 @@ img {
 }
 @media (min-width: 712px) {
     .newsletter {
-        background-size: 100%, 80rem;
+        background-size: 100%, 110rem;
     }
 }
 @media (min-width: 768px) {
@@ -488,7 +488,7 @@ img {
 .contenido-newsletter {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    /*gap: var(--separacion);*/
+    gap: var(--separacion);
 }
 @media (min-width: 768px) {
     .contenido-newsletter {
