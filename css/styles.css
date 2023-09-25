@@ -429,7 +429,7 @@ img {
 .newsletter {
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100%, 70rem;
+    background-size: 100%, 80rem;
     color: var(--grisClaro);
 }
 .notavif.notwebp .newsletter {
@@ -443,12 +443,12 @@ img {
 }
 @media (min-width: 320px) {
     .newsletter {
-        background-size: 100%, 80rem;
+        background-size: 100%, 87rem;
     }
 }
 @media (min-width: 712px) {
     .newsletter {
-        background-size: 100%, 85rem;
+        background-size: 100%, 80rem;
     }
 }
 @media (min-width: 768px) {
