@@ -476,7 +476,7 @@ img {
 @media (min-width: 1360px) {
     .newsletter {
         background-position: center, -12rem 0;
-        background-size: 100%, 90rem;
+        /*background-size: 100%, 90rem;*/
     }
 }
 @media (min-width: 1920px) {
