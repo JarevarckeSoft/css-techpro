@@ -443,7 +443,7 @@ img {
 }
 @media (min-width: 320px) {
     .newsletter {
-        background-size: 100%, 87rem;
+        background-size: 100%, 90rem;
     }
 }
 @media (min-width: 712px) {
