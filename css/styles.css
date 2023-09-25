@@ -429,7 +429,7 @@ img {
 .newsletter {
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100%, 80rem;
+    background-size: 100%, 110rem;
     color: var(--grisClaro);
 }
 .notavif.notwebp .newsletter {
@@ -448,13 +448,13 @@ img {
 }
 @media (min-width: 712px) {
     .newsletter {
-        background-size: 100%, 110rem;
+        background-size: 100%, 80rem;
     }
 }
 @media (min-width: 768px) {
     .newsletter {
-        background-position: center, -25rem 0;
         background-size: 100%, 95rem;
+        background-position: center, -25rem 0;
         padding: 10rem 0;
     }
     .notavif.notwebp .newsletter {
@@ -469,8 +469,8 @@ img {
 }
 @media (min-width: 992px) {
     .newsletter {
-        background-position: center, -20rem 0;
         background-size: 100%, 90rem;
+        background-position: center, -20rem 0;
     }
 }
 @media (min-width: 1360px) {
@@ -481,8 +481,8 @@ img {
 }
 @media (min-width: 1920px) {
     .newsletter {
-        background-position: center, -28rem -33rem;
         background-size: 100%, 150rem;
+        background-position: center, -28rem -33rem;
     }
 }
 .contenido-newsletter {
