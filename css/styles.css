@@ -428,8 +428,8 @@ img {
 /** Recibe Actualizaciones **/
 .newsletter {
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100%, 110rem;
+    background-position: bottom center;
+    background-size: 100%, 80rem;
     color: var(--grisClaro);
 }
 .notavif.notwebp .newsletter {
