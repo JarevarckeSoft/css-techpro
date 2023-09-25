@@ -428,7 +428,7 @@ img {
 /** Recibe Actualizaciones **/
 .newsletter {
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
     background-size: 100%, 80rem;
     color: var(--grisClaro);
 }
