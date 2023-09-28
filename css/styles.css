@@ -486,8 +486,8 @@ img {
 }
 @media (min-width: 1360px) {
     .newsletter {
+        background-size: 100%, 100rem;
         background-position: center, -12rem 0;
-        /*background-size: 100%, 90rem;*/
     }
 }
 @media (min-width: 1920px) {
@@ -505,6 +505,17 @@ img {
     .contenido-newsletter {
         grid-template-rows: unset;
         grid-template-columns: repeat(2, 1fr);
+        gap: 6.5rem;
+    }
+}
+@media (min-width: 912px) {
+    .contenido-newsletter {
+        gap: 9rem;
+    }
+}
+@media (min-width: 1440px) {
+    .contenido-newsletter {
+        gap: 20rem;
     }
 }
 .texto-newsletter {
